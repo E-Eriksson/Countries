@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: blue;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  font-size: large;
+}
+.nav {
+  height: calc(100vh - 160px);
+  background-color: red;
+  width: 150px;
+  float: left;
+}
+.content {
+  height: calc(100vh - 160px);
+  background-color: burlywood;
+  text-indent: 40px;
+  padding: 20px;
+}
+footer {
+  height: 80px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+.links {
+  text-decoration: none;
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+img {
+  height: 180px;
+  width: 250px;
+  margin: 30px;
+}
